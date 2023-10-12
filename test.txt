@@ -1,0 +1,25 @@
+/lib
+|-- /data
+|   |-- /datasource
+|   |-- /models
+|   |-- /repositories
+|-- /domain
+|   |-- /entities
+|   |-- /repositories
+|-- /presentation
+|   |-- /cubit
+|   |-- /pages
+|-- main.dart
+
+Data Layer
+/data/datasource: Here, create classes to handle API calls using Dio.
+/data/models: Create models for the data that you'll receive from the APIs.
+/data/repositories: Here, you will implement interfaces that define how the data should be fetched.
+
+Domain Layer
+domain/entities: Define the core business logic here.
+/domain/repositories: Define abstract classes that declare what data operations are needed.
+
+Presentation Layer
+/presentation/cubit: Use Cubit to manage the state of the UI.
+/presentation/pages: This will contain all the UI elements and pages.

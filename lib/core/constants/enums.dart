@@ -1,0 +1,1 @@
+enum MarketEnum { idx, nasdaq, crypto }
